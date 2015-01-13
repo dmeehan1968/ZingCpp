@@ -14,6 +14,11 @@
 		A3FF93DC1A650FED00AB9427 /* OptionResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D71A650FED00AB9427 /* OptionResult.cpp */; };
 		A3FF93DD1A650FED00AB9427 /* Options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D81A650FED00AB9427 /* Options.cpp */; };
 		A3FF93DE1A650FED00AB9427 /* Runnable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D91A650FED00AB9427 /* Runnable.cpp */; };
+		A3FF93DF1A65112300AB9427 /* App.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FF93D01A650FDE00AB9427 /* App.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FF93E01A65112300AB9427 /* Option.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FF93D11A650FDE00AB9427 /* Option.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FF93E11A65112300AB9427 /* OptionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FF93D21A650FDE00AB9427 /* OptionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FF93E21A65112300AB9427 /* Options.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FF93D31A650FDE00AB9427 /* Options.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FF93E31A65112300AB9427 /* Runnable.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FF93D41A650FDE00AB9427 /* Runnable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +111,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3FF93BC1A650DB100AB9427 /* Args.h in Headers */,
+				A3FF93E01A65112300AB9427 /* Option.h in Headers */,
+				A3FF93DF1A65112300AB9427 /* App.h in Headers */,
+				A3FF93E11A65112300AB9427 /* OptionResult.h in Headers */,
+				A3FF93E21A65112300AB9427 /* Options.h in Headers */,
+				A3FF93E31A65112300AB9427 /* Runnable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
