@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		A3FF93B91A650D6D00AB9427 /* Args.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93B61A650D6D00AB9427 /* Args.cpp */; };
 		A3FF93BC1A650DB100AB9427 /* Args.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FF93BB1A650D9A00AB9427 /* Args.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3FF93DA1A650FED00AB9427 /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D51A650FED00AB9427 /* App.cpp */; };
+		A3FF93DB1A650FED00AB9427 /* Option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D61A650FED00AB9427 /* Option.cpp */; };
+		A3FF93DC1A650FED00AB9427 /* OptionResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D71A650FED00AB9427 /* OptionResult.cpp */; };
+		A3FF93DD1A650FED00AB9427 /* Options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D81A650FED00AB9427 /* Options.cpp */; };
+		A3FF93DE1A650FED00AB9427 /* Runnable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3FF93D91A650FED00AB9427 /* Runnable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +21,16 @@
 		A3FF93B41A650D6D00AB9427 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		A3FF93B61A650D6D00AB9427 /* Args.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Args.cpp; sourceTree = "<group>"; };
 		A3FF93BB1A650D9A00AB9427 /* Args.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Args.h; sourceTree = "<group>"; };
+		A3FF93D01A650FDE00AB9427 /* App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		A3FF93D11A650FDE00AB9427 /* Option.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Option.h; sourceTree = "<group>"; };
+		A3FF93D21A650FDE00AB9427 /* OptionResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionResult.h; sourceTree = "<group>"; };
+		A3FF93D31A650FDE00AB9427 /* Options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
+		A3FF93D41A650FDE00AB9427 /* Runnable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runnable.h; sourceTree = "<group>"; };
+		A3FF93D51A650FED00AB9427 /* App.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
+		A3FF93D61A650FED00AB9427 /* Option.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Option.cpp; sourceTree = "<group>"; };
+		A3FF93D71A650FED00AB9427 /* OptionResult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionResult.cpp; sourceTree = "<group>"; };
+		A3FF93D81A650FED00AB9427 /* Options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Options.cpp; sourceTree = "<group>"; };
+		A3FF93D91A650FED00AB9427 /* Runnable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runnable.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,11 @@
 		A3FF93B51A650D6D00AB9427 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				A3FF93D51A650FED00AB9427 /* App.cpp */,
+				A3FF93D61A650FED00AB9427 /* Option.cpp */,
+				A3FF93D71A650FED00AB9427 /* OptionResult.cpp */,
+				A3FF93D81A650FED00AB9427 /* Options.cpp */,
+				A3FF93D91A650FED00AB9427 /* Runnable.cpp */,
 				A3FF93B61A650D6D00AB9427 /* Args.cpp */,
 			);
 			name = src;
@@ -68,6 +88,11 @@
 		A3FF93BA1A650D9A00AB9427 /* ZingCpp */ = {
 			isa = PBXGroup;
 			children = (
+				A3FF93D01A650FDE00AB9427 /* App.h */,
+				A3FF93D11A650FDE00AB9427 /* Option.h */,
+				A3FF93D21A650FDE00AB9427 /* OptionResult.h */,
+				A3FF93D31A650FDE00AB9427 /* Options.h */,
+				A3FF93D41A650FDE00AB9427 /* Runnable.h */,
 				A3FF93BB1A650D9A00AB9427 /* Args.h */,
 			);
 			path = ZingCpp;
@@ -140,7 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FF93DB1A650FED00AB9427 /* Option.cpp in Sources */,
+				A3FF93DC1A650FED00AB9427 /* OptionResult.cpp in Sources */,
+				A3FF93DE1A650FED00AB9427 /* Runnable.cpp in Sources */,
+				A3FF93DD1A650FED00AB9427 /* Options.cpp in Sources */,
 				A3FF93B91A650D6D00AB9427 /* Args.cpp in Sources */,
+				A3FF93DA1A650FED00AB9427 /* App.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
