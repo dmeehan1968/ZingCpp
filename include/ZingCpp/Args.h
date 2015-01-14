@@ -12,7 +12,7 @@
 #include <string>
 #include <list>
 
-namespace Zing { namespace App {
+namespace Zing {
 
     class Args {
 
@@ -41,5 +41,6 @@ namespace Zing { namespace App {
         
     };
 
-} }
+}
+
 #endif /* defined(__DelegateTest__Args__) */

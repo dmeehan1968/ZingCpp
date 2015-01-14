@@ -10,7 +10,7 @@
 
 #include <memory>
 
-namespace Zing { namespace App {
+namespace Zing {
 
     App::App(std::shared_ptr<Runnable> const &runnable,
              std::shared_ptr<Options> const &options)
@@ -19,4 +19,4 @@ namespace Zing { namespace App {
         _options(options)
     {}
 
-} }
+}

@@ -10,7 +10,7 @@
 
 #include "Args.h"
 
-namespace Zing { namespace App {
+namespace Zing {
 
     Option::Option(std::initializer_list<std::string> const &exprs, std::regex::flag_type flags)
     {
@@ -22,4 +22,4 @@ namespace Zing { namespace App {
 
     }
 
-} }
+}

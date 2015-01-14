@@ -9,7 +9,7 @@
 #ifndef __DelegateTest__Runnable__
 #define __DelegateTest__Runnable__
 
-namespace Zing { namespace App {
+namespace Zing {
 
     class Runnable {
 
@@ -19,6 +19,6 @@ namespace Zing { namespace App {
         
     };
 
-} }
+} 
 
 #endif /* defined(__DelegateTest__Runnable__) */

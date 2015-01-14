@@ -14,7 +14,7 @@
 #include <memory>
 #include <vector>
 
-namespace Zing { namespace App {
+namespace Zing {
 
     class Options {
 
@@ -61,6 +61,6 @@ namespace Zing { namespace App {
         
     };
 
-} }
+}
 
 #endif /* defined(__DelegateTest__Options__) */

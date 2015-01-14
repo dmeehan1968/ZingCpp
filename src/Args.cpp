@@ -8,7 +8,7 @@
 
 #include "Args.h"
 
-namespace Zing { namespace App {
+namespace Zing {
 
     std::string const &Args::front() {
 
@@ -34,4 +34,4 @@ namespace Zing { namespace App {
 
     }
 
-} }
+}

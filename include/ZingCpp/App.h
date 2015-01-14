@@ -12,8 +12,7 @@
 #include "Runnable.h"
 #include "Options.h"
 
-namespace Zing { namespace App {
-
+namespace Zing {
 
     class App {
 
@@ -40,6 +39,6 @@ namespace Zing { namespace App {
         
     };
 
-} }
+}
 
 #endif /* defined(__DelegateTest__App__) */

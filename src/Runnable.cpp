@@ -8,10 +8,10 @@
 
 #include "Runnable.h"
 
-namespace Zing { namespace App {
+namespace Zing {
 
     void Runnable::run() {
 
     }
 
-} }
+}

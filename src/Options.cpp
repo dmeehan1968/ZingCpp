@@ -8,10 +8,10 @@
 
 #include "Options.h"
 
-namespace Zing { namespace App {
+namespace Zing {
 
     void Options::add(std::shared_ptr<Option> const &option) {
         _options.push_back(option);
     }
 
-} }
+}

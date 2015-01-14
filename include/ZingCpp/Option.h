@@ -17,7 +17,7 @@
 #include <regex>
 #include <list>
 
-namespace Zing { namespace App {
+namespace Zing {
 
     class Option {
 
@@ -41,7 +41,7 @@ namespace Zing { namespace App {
                 if (std::regex_match(*begin, matches, expr)) {
 
                     if (!result.args) {
-                        result.args = std::unique_ptr<Zing::App::Args>(new Zing::App::Args());
+                        result.args = std::unique_ptr<Zing::Args>(new Zing::Args());
                     }
 
                     if (matches.size() > 1) {
@@ -80,6 +80,6 @@ namespace Zing { namespace App {
         
     };
 
-} }
+}
 
 #endif /* defined(__DelegateTest__Option__) */

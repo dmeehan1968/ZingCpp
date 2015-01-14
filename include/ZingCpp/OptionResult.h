@@ -11,7 +11,7 @@
 
 #include <memory>
 
-namespace Zing { namespace App {
+namespace Zing {
 
     class Args;
 
@@ -28,6 +28,6 @@ namespace Zing { namespace App {
         
     };
 
-} }
+}
 
 #endif /* defined(__DelegateTest__OptionResult__) */
